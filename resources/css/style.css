@@ -48,8 +48,19 @@
 }
 
 nav {
-    background-color: tomato;
+    background-color: white;
     grid-area: nav;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav p {
+    margin-left: 16px;
+}
+
+#signIn {
+    margin-right: 24px;
 }
 
 #landing {
