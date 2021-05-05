@@ -1,14 +1,15 @@
 .container {
+    background-color: lightgrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     height: 100%;
     grid-template-columns: 60% 40%;
-    grid-template-rows: repeat(16, 1fr);
+    grid-template-rows: repeat(16, auto);
     grid-template-areas: 
         "logo nav"
-        "landing landing"
-        "landing landing"
-        "landing landing"
+        "landing landing2"
+        "landing landing2"
+        "landing landing2"
         "content1 content2"
         "content1 content3"
         "content1 content4"
@@ -56,6 +57,8 @@ nav {
 }
 
 nav p {
+    font-size: 14px;
+    font-weight: 300;
     margin-left: 16px;
 }
 
@@ -64,8 +67,33 @@ nav p {
 }
 
 #landing {
-    background-color: turquoise;
+    background-color: lightgray;
     grid-area: landing;
+    padding: 32px 24px;
+}
+
+#landingImg {
+    display: block;
+    width: 100%;
+}
+
+#landing2 {
+    height: auto;
+    background-color: lightgrey;
+    grid-area: landing2;
+    text-align: left;
+    color: rgb(54, 69, 79);
+    font-size: 28px;
+    align-self: center;
+}
+
+#startHereButton {
+    text-align: center;
+    color: white;
+    padding: 8px 12px;
+    background: rgb(54, 69, 79);
+    margin-right: 24px;
+
 }
 
 #content1 {
