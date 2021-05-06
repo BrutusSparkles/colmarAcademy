@@ -3,25 +3,25 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     height: 100%;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 60% 14% 26%;
     grid-template-rows: repeat(16, auto);
     grid-template-areas: 
-        "logo nav"
-        "landing landing2"
-        "landing landing2"
-        "landing landing2"
-        "content1 content2"
-        "content1 content3"
-        "content1 content4"
-        "startLearning startLearning"
-        "startLearning startLearning"
-        "startLearning startLearning"
-        "startLearning startLearning"
-        "thesis thesis"
-        "content5 content6"
-        "content5 content7"
-        "content5 content7"
-        "footer footer";
+        "logo nav nav"
+        "landing landing2 landing2"
+        "landing landing2 landing2"
+        "landing landing2 landing2"
+        "content1 content2 content2Part2"
+        "content1 content3 content3Part2"
+        "content1 content4 content4Part2"
+        "startLearning startLearning startLearning"
+        "startLearning startLearning startLearning"
+        "startLearning startLearning startLearning"
+        "startLearning startLearning startLearning"
+        "thesis thesis thesis"
+        "content5 content6 content6Part2"
+        "content5 content7 content7Part2"
+        "content5 content7 content7Part2"
+        "footer footer footer";
 }
 
 #logo {
@@ -109,8 +109,23 @@ nav p {
 }
 
 #content2 {
-    background-color: wheat;
+    height: auto;
+    background-color: white;
     grid-area: content2;
+    border: 1px solid lightgrey;
+}
+
+#content2Part2 {
+    grid-area: content2Part2;
+    display: inline-block;
+    background-color: white;  
+}
+
+#content2Img {
+    display: inline-block;
+    height: auto;
+    width: 35%;
+    padding: 16px 16px;
 }
 
 #content3 {
@@ -118,9 +133,19 @@ nav p {
     grid-area: content3;
 }
 
+#content3Part2 {
+    grid-area: content3Part2;
+    background-color: white;
+}
+
 #content4 {
     background-color: forestgreen;
     grid-area: content4;
+}
+
+#content4Part2 {
+    grid-area: content4Part2;
+    background-color: forestgreen;
 }
 
 #startLearning {
@@ -143,9 +168,19 @@ nav p {
     grid-area: content6;
 }
 
+#content6Part2 {
+    background-color: lightblue;
+    grid-area: content6Part2;
+}
+
 #content7 {
     background-color: lightseagreen;
     grid-area: content7;
+}
+
+#content7Part2 {
+    grid-area: content7Part2;
+    background-color: lightseagreen;
 }
 
 footer {
