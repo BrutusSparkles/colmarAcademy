@@ -101,53 +101,97 @@ nav p {
     grid-area: content1;
     padding: 32px 24px;
     border: 1px solid lightgrey;
+    text-align: left;
+    color: rgb(54, 69, 79);
+    font-size: 28px;
+    align-self: center;
+}
+
+#content1-1 {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#content1-2 {
+    font-weight: 600;
+    font-size: 16px;
 }
 
 #content1Img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 #content2 {
     height: auto;
     background-color: white;
     grid-area: content2;
-    border: 1px solid lightgrey;
+    padding: 16px 16px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
 }
 
 #content2Part2 {
     grid-area: content2Part2;
     display: inline-block;
-    background-color: white;  
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; 
 }
 
 #content2Img {
-    display: inline-block;
+    display: block;
     height: auto;
-    width: 35%;
-    padding: 16px 16px;
+    width: 100%;
 }
 
 #content3 {
-    background-color: violet;
+    background-color: white;
     grid-area: content3;
+    padding: 16px 16px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
 }
 
 #content3Part2 {
     grid-area: content3Part2;
     background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+#content3Img {
+    display: block;
+    height: auto;
+    width: 100%;
 }
 
 #content4 {
-    background-color: forestgreen;
+    background-color: lightgray;
     grid-area: content4;
+    padding: 16px 16px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
 }
 
 #content4Part2 {
     grid-area: content4Part2;
-    background-color: forestgreen;
+    background-color: lightgray;
 }
 
+#content4Img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#readMore {
+    color: dodgerblue;
+}
 #startLearning {
     background-color: goldenrod;
     grid-area: startLearning;
