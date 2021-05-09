@@ -21,12 +21,7 @@
         "content5 content6 content6Part2"
         "content5 content7 content7Part2"
         "content5 content7 content7Part2"
-        "footer footer footer";
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
+        "fl fr fr";
 }
 
 #logo {
@@ -203,6 +198,7 @@ nav p {
 #readMore {
     color: dodgerblue;
 }
+
 #startLearning {
     background-color: lightgray;
     grid-area: startLearning;
@@ -234,7 +230,7 @@ nav p {
 }
 
 #sl1-2 {
-    display: block;
+    display: inline-block;
     color: rgb(54, 69, 79);
     padding-left: 16px;
     padding-top: 8px;
@@ -410,35 +406,83 @@ nav p {
 
 #thesisH {
     padding: 0px;
-    margin: 32px 0px;
+    margin: 32px 0px; 
 }
 
 #content5 {
-    background-color: khaki;
+    background-color: white;
     grid-area: content5;
+    padding: 0px 24px 24px 24px;
+    color: rgb(54, 69, 79);
+}
+
+#content5 h4 {
+    font-size: 30px;
+    margin: 24px 0px;
+}
+
+#content5 p {
+    font-size: 20px;
+    margin: 8px 0px 32px 0px;
+}
+
+#c5V {
+    width: 100%;
 }
 
 #content6 {
-    background-color: lightblue;
+    background-color: lightgray;
     grid-area: content6;
+    padding: 16px;
 }
 
 #content6Part2 {
-    background-color: lightblue;
+    background-color: lightgrey;
     grid-area: content6Part2;
+    color: rgb(54, 69, 79);
+    font-size: 30px;
+    align-items: center;
+}
+
+#content6Img {
+    display: block;
+    height: auto;
+    width: 100%;
 }
 
 #content7 {
-    background-color: lightseagreen;
+    background-color: white;
     grid-area: content7;
+    padding: 16px;
 }
 
 #content7Part2 {
     grid-area: content7Part2;
-    background-color: lightseagreen;
+    background-color: white;
+    color: rgb(54, 69, 79);
+    font-size: 30px;
+    align-items: center;
 }
 
-footer {
-    background-color: magenta;
-    grid-area: footer;
+#content7Img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#fl {
+    background-color: white;
+    grid-area: fl;
+    color: rgb(54, 69, 79);
+    padding: 16px 24px;
+    border-top: 1px solid lightgray;
+}
+
+#fr {
+    background-color: white;
+    grid-area: fr;
+    color: rgb(54, 69, 79);
+    text-align: right;
+    padding: 16px 24px;
+    border-top: 1px solid lightgray;
 }
