@@ -1,0 +1,488 @@
+.container {
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 60% 14% 26%;
+    grid-template-rows: repeat(16, auto);
+    grid-template-areas: 
+        "logo nav nav"
+        "landing landing2 landing2"
+        "landing landing2 landing2"
+        "landing landing2 landing2"
+        "content1 content2 content2Part2"
+        "content1 content3 content3Part2"
+        "content1 content4 content4Part2"
+        "startLearning startLearning startLearning"
+        "startLearning startLearning startLearning"
+        "startLearning startLearning startLearning"
+        "startLearning startLearning startLearning"
+        "thesis thesis thesis"
+        "content5 content6 content6Part2"
+        "content5 content7 content7Part2"
+        "content5 content7 content7Part2"
+        "fl fr fr";
+}
+
+#logo {
+    background-color: white;
+    grid-area: logo;
+    height: 64px;
+    align-items: center;
+    display: flex;
+}
+
+#logo1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(54, 69, 79);
+}
+
+#logo2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+}
+
+#logoImg {
+    margin-left: 24px;
+}
+
+nav {
+    background-color: white;
+    grid-area: nav;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 16px;
+}
+
+#signIn {
+    margin-right: 24px;
+}
+
+#landing {
+    background-color: lightgray;
+    grid-area: landing;
+    padding: 32px 24px;
+}
+
+#landingImg {
+    display: block;
+    width: 100%;
+}
+
+#landing2 {
+    height: auto;
+    background-color: lightgrey;
+    grid-area: landing2;
+    text-align: left;
+    color: rgb(54, 69, 79);
+    font-size: 28px;
+    align-self: center;
+}
+
+#startHereButton {
+    text-align: center;
+    color: white;
+    padding: 8px 12px;
+    background: rgb(54, 69, 79);
+    margin-right: 24px;
+
+}
+
+#content1 {
+    background-color: white;
+    grid-area: content1;
+    padding: 32px 24px;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid white;
+    text-align: left;
+    color: rgb(54, 69, 79);
+    font-size: 28px;
+    align-self: center;
+}
+
+#content1-1 {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#content1-2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#content1Img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#content2 {
+    height: auto;
+    background-color: white;
+    grid-area: content2;
+    padding: 16px 16px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+#content2Part2 {
+    grid-area: content2Part2;
+    display: inline-block;
+    color: rgb(54, 69, 79);
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; 
+}
+
+#content2Img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#content3 {
+    background-color: white;
+    grid-area: content3;
+    padding: 16px 16px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+#content3Part2 {
+    grid-area: content3Part2;
+    color: rgb(54, 69, 79);
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+#content3Img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#content4 {
+    background-color: lightgray;
+    grid-area: content4;
+    padding: 16px 16px;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid white;
+}
+
+#content4Part2 {
+    grid-area: content4Part2;
+    color: rgb(54, 69, 79);
+    background-color: lightgray;
+    border-bottom: 1px solid white;
+}
+
+#content4Img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#readMore {
+    color: dodgerblue;
+}
+
+#startLearning {
+    background-color: lightgray;
+    grid-area: startLearning;
+    font-size: 24px;
+}
+
+#slh {
+    color: rgb(54, 69, 79);
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 42px;
+}
+
+#sl1 {
+    display: inline-block;
+    margin-left: 72px;
+    background-color: white;
+    max-width: 532px;
+    height: 480px;
+    margin-bottom: 32px;
+}
+
+#sl1-1 {
+    padding-top: 16px;
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl1-2 {
+    display: inline-block;
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+#sl1-3 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl2 {
+    display: inline-block;
+    margin-left: 32px;
+    margin-right: 32px;
+    background-color: white;
+    max-width: 532px;
+    height: 480px;
+    margin-bottom: 0px;
+}
+
+#sl2-1 {
+    padding-top: 16px;
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl2-2 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+#sl2-3 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl3 {
+    display: inline-block;
+    margin-right: 72px;
+    background-color: white;
+    max-width: 532px;
+    height: 480px;
+    margin-bottom: 32px;
+}
+
+#sl3-1 {
+    padding-top: 16px;
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl3-2 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+#sl3-3 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl4 {
+    display: inline-block;
+    margin-left: 72px;
+    background-color: white;
+    max-width: 532px;
+    height: 480px;
+    margin-bottom: 32px;
+}
+
+#sl4-1 {
+    padding-top: 16px;
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl4-2 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+#sl4-3 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl5 {
+    display: inline-block;
+    margin-left: 32px;
+    margin-right: 32px;
+    background-color: white;
+    max-width: 532px;
+    height: 480px;
+    margin-bottom: 32px;
+}
+
+#sl5-1 {
+    padding-top: 16px;
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl5-2 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+#sl5-3 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl6 {
+    display: inline-block;
+    margin-right: 72px;
+    background-color: white;
+    max-width: 532px;
+    height: 480px;
+    margin-bottom: 32px;
+}
+
+#sl6-1 {
+    padding-top: 16px;
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#sl6-2 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+#sl6-3 {
+    color: rgb(54, 69, 79);
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#thesis {
+    background-color: white;
+    grid-area: thesis;
+    color: rgb(54, 69, 79);
+    text-align: center;
+    font-size: 32px;
+}
+
+#thesisH {
+    padding: 0px;
+    margin: 32px 0px; 
+}
+
+#content5 {
+    background-color: white;
+    grid-area: content5;
+    padding: 0px 24px 24px 24px;
+    color: rgb(54, 69, 79);
+}
+
+#content5 h4 {
+    font-size: 30px;
+    margin: 24px 0px;
+}
+
+#content5 p {
+    font-size: 20px;
+    margin: 8px 0px 32px 0px;
+}
+
+#c5V {
+    width: 100%;
+}
+
+#content6 {
+    background-color: lightgray;
+    grid-area: content6;
+    padding: 16px;
+}
+
+#content6Part2 {
+    background-color: lightgrey;
+    grid-area: content6Part2;
+    color: rgb(54, 69, 79);
+    font-size: 30px;
+    align-items: center;
+}
+
+#content6Img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#content7 {
+    background-color: white;
+    grid-area: content7;
+    padding: 16px;
+}
+
+#content7Part2 {
+    grid-area: content7Part2;
+    background-color: white;
+    color: rgb(54, 69, 79);
+    font-size: 30px;
+    align-items: center;
+}
+
+#content7Img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#fl {
+    background-color: white;
+    grid-area: fl;
+    color: rgb(54, 69, 79);
+    padding: 16px 24px;
+    border-top: 1px solid lightgray;
+}
+
+#fr {
+    background-color: white;
+    grid-area: fr;
+    color: rgb(54, 69, 79);
+    text-align: right;
+    padding: 16px 24px;
+    border-top: 1px solid lightgray;
+}
