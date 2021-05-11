@@ -203,14 +203,46 @@ nav p {
     background-color: lightgray;
     grid-area: startLearning;
     font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    
+
 }
 
+.sl-container{
+    width:30%;
+    margin:30px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.2s linear;
+}
+
+.sl-container:hover{
+    box-shadow: 0px 0px 30px  grey;
+    
+}
+
+.sl-container img{
+    display:flex;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+ 
 #slh {
     color: rgb(54, 69, 79);
     text-align: center;
     margin-top: 32px;
     margin-bottom: 32px;
     font-size: 42px;
+  
+}
+#startLearningHeader{
+    display:flex;
+    text-align:center;
+    width:100%;
+    justify-content: center;
 }
 
 #sl1 {
@@ -373,7 +405,7 @@ nav p {
     max-width: 532px;
     height: 480px;
     margin-bottom: 32px;
-}
+} */
 
 #sl6-1 {
     padding-top: 16px;
